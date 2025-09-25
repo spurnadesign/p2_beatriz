@@ -1,6 +1,6 @@
 void bea(float px, float py){
-  pushMatrix();
-  translate(100,200);
+  push();
+  translate(px,py);
  //hair
   rect(12,50,76,80);
   //hair
@@ -25,6 +25,7 @@ void bea(float px, float py){
   stroke(1);
   circle(35,70,2);
   circle(65,70,2);
-  popMatrix();
+  pop();
 }
   
+
