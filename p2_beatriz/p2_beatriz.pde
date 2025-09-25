@@ -3,8 +3,9 @@ void setup(){
   noFill();
 }
 void draw(){
-bea(300,100);
+bea(px,py);
 }
 
 
   
+
